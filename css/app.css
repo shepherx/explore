@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap");
+@import url("../css/bootstrap.min.css");
+html,
+body {
+  font-family: "Abril Fatface";
+  height: 100%;
+  width: 100%;
+  background-color: #611818;
+  overflow: hidden; }
+
+#home {
+  background: url(../johan.png);
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: left 20rem bottom 0px; }
+
+.landing-text h1 {
+  color: white;
+  font-size: 11rem;
+  display: flex;
+  text-align: left;
+  position: relative;
+  top: 367px;
+  left: 110px; }
+
+.landing-text h3 {
+  color: white;
+  font-family: Arial;
+  font-size: 16px;
+  opacity: 0.7;
+  display: flex;
+  position: relative;
+  top: 330px;
+  left: 219px; }
+
+.social-icons {
+  position: relative;
+  top: 350px;
+  margin-left: 10px;
+  left: 1350px;
+  padding-bottom: 30px; }
+
+.fb {
+  height: 40px;
+  width: auto;
+  color: white;
+  margin-bottom: 10px; }
+
+.ig {
+  height: 40px;
+  width: auto; }
+
+.btn {
+  color: white;
+  position: relative;
+  top: 280px;
+  left: 175px;
+  font-size: 30px; }
+
+.social-icons-mobile {
+  display: none; }
+
+span {
+  opacity: 0;
+  transition: all 5s ease; }
+
+span.fade {
+  opacity: 1; }
+
+.modal-dialog {
+  position: relative;
+  right: 300px; }
+
+.text-in-modal {
+  font-family: Arial;
+  line-height: 2;
+  margin: 20px 15px 15px 40px;
+  margin-bottom: 50px;
+  margin-left: 30px; }
+
+.modal-title {
+  color: #611818;
+  font-size: 4rem;
+  margin-left: 20px;
+  margin-top: 20px; }
+
+.read {
+  background-image: linear-gradient(to right, #611818 0%, #611818 51%, #fda085 100%);
+  color: white;
+  width: 170px;
+  height: 40px;
+  position: relative;
+  left: 45px;
+  bottom: 45px;
+  text-transform: uppercase;
+  font-family: sans-serif; }
+
+.close {
+  color: #611818;
+  font-family: Arial, Helvetica, sans-serif; }
+
+@media (max-width: 1111px) {
+  .landing-text h1 {
+    font-size: 6rem; }
+  .landing-text h3 {
+    visibility: hidden; }
+  .btn {
+    margin-top: 20px;
+    margin-right: 40px; }
+  .social-icons-mobile {
+    position: relative;
+    top: 320px;
+    display: flex;
+    flex-direction: row;
+    left: 250px; }
+  .modal-dialog {
+    position: absolute;
+    top: 10px;
+    right: 100px;
+    bottom: 0;
+    left: 0;
+    z-index: 10040;
+    overflow: auto;
+    overflow-y: auto;
+    height: fit-content; }
+  #home {
+    background-position: left 12rem bottom 0; } }
+
+/*# sourceMappingURL=app.css.map */

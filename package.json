@@ -1,0 +1,14 @@
+{
+  "name": "xplore",
+  "version": "1.0.0",
+  "description": "xplore web",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o css/"
+  },
+  "author": "Ian Shepherd",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
